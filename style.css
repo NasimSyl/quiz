@@ -44,7 +44,7 @@ body {
 }
 .MyBtn{
     margin-left: 195px !important;
-    margin-top: 175px;
+    margin-top: 150px;
     width: 60%;
     
 }
@@ -111,7 +111,7 @@ ol li{
   cursor: pointer;
   margin-top: 1px;
   transition: 0.2s ease-in-out;
-  margin-top: 35px;
+  margin-top: 60px;
 }
 .Buttons button:hover{
   background-color: rgb(29, 194, 194);
