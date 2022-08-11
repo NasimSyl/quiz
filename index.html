@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="MyQuizApp">
+        <div class="img">
+            <img src="question.svg" alt="">
+        </div>
+
+        <div class="text1">
+            <h3>ইসলামিক কুইজ </h3>
+            <p>ইসলামিক কুইজ প্রতিযোগিতা ২০২২ </p>
+           <br>
+            <h3>কুইজ খেলুন পুরস্কার জিতুন </h3>
+            <p>বাসায় বসে অনলাইন কুইজ প্রতিযোগিতায় অংশ নিয়ে পুরস্কার জিতুন</p>
+
+            <h1 class="clock">Time : <span id="clock">10.00</span> <span id="format"></span> </h1>
+            <h1 class="date">Date : <span id="Date"></span></h1>
+        </div>
+
+        <div class="MyBtn">
+            <button>Start Quiz</button>
+        </div>
+   </div>
+
+
+   <div class="RulesBox">
+       <div class="RulesTitle">Islamic Quiz এর বিস্তারিত</div>
+       <div class="RulesList">
+       <ol>
+           <li>কুইজ শুরু করার পর একজন প্রতিযোগী সর্বোচ্চ <span style="color: red;">১৫ সেকেন্ড</span> সময় পাবেন প্রশ্নের উত্তর দেওয়ার জন্য।</li>
+           <li>Islamic Quiz এ অংশগ্রহণ করার জন্য ‘শুরু করুন’ বাটনটি ক্লিক করে আমাদের এই শর্তাবলীসমুহতে আপনার সম্মতি প্রদান করেছেন।</li>
+           <li>প্রতিযোগী কোন প্রশ্ন এড়িয়ে পরবর্তী প্রশ্নের উত্তর দিতে পারবেন না।</li>
+           <li>কুইজ কমিটি এই শর্তাবলী পরিবর্তন/পরিবর্ধন/সংশোধন করার কিংবা কোন প্রকার পূর্ব ঘোষণা ছাড়াই পুরো অফারটি বাতিল করার অধিকার সংরক্ষণ করে।</li>
+           <li>এই সময়ের মধ্যে তিনি ততক্ষণ খেলতে পারবেন যতক্ষণ প্রশ্নের সঠিক উত্তর দিতে পারবেন।</li>
+        </ol>
+       </div>
+      <div class="Buttons">
+           <button class="exitButton">Exit Quiz</button>
+           <button class="continueButton">Continue</button>
+      </div>
+
+   </div>
+
+
+
+   <div class="Question">
+
+      <header class="question-header">
+
+        <div class="title">Start Exam</div>
+
+        <div class="timecount">
+          <div class="timeleft">Time Left</div>
+          <div class="second">15</div>
+        </div>
+
+         <div class="time-lines"></div>
+    </header>
+      
+
+         <div class="section">
+
+           <div class="text">
+               
+            <!-- <span> 1. What Does Html Stands For</span> -->
+         </div>
+
+           <div class="myoption">
+               
+            
+            </div>
+           
+       </div>
+
+      
+       <footer>
+
+           <div class="total_ques">
+
+               <!-- <p>1 Of 5 Question</p> -->
+               
+           </div>
+
+           <button class="nextbtn">Next Ques</button>
+
+       </footer>
+
+      </div>
+
+
+<div class="result_box">
+    <div class="ResultImg">
+        <img src="winner.svg" alt="">
+    </div>
+
+    <div class="complete_text"> You Have Finished The Exam</div>
+    
+    <div class="score_text">
+        <span>Carry On 👌  You Got <p>0</p> Out Of <p>5</p></span>
+    </div>
+
+    <div class="buttons">
+        <button class="restart1">Replay</button>
+        <button class="quit">Quit Quiz</button>
+    </div>
+       
+</div>
+
+ 
+<script src="app.js"></script>
+<script src="question.js"></script>
+    
+</body>
+</html>
+
